@@ -1,0 +1,21 @@
+.wrapper{
+    border-radius: 1rem;
+    overflow: hidden;
+    height: 8rem;
+    width: 22rem;
+    background: var(--activeclr);
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+}
+
+
+.navitem .navsearch{
+    position: relative;
+    display: grid;
+    place-content: center;
+    color: #fff;
+    width: 4.5rem;
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+    transition: width 300ms ease, flex-grow 300ms ease;
+}
